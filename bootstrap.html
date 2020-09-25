@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="test.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"> -->
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header class="poly" data-aos="fade-right" data-aos-duration="2000"> <button class="btn btn-danger" id="check" data-aos="flip-left" data-aos-duration="2000">Click me to dissapear this button</button>
+        <button class="btn btn-success" id="test" data-aos="flip-right" data-aos-duration="2000">dissapear all the butttons </button>
+        <strong>Hello, world!</strong>
+        <button class="btn btn-info" onclick="location.href='test.html'" data-aos="fade-down-right" data-aos-duration="2000"> Go back to home</button><br><br>
+        <button id="hide" data-aos="fade-right" data-aos-duration="3000">Hide</button>
+        <button data-aos="fade-left" data-aos-duration="3000" onclick="location.href='../../tryajax.html'">Take me to ajax</button>
+        <p style="color: rgb(13, 28, 39);" data-aos="fade-down" data-aos-duration="2000">This is a paragraph with little content.</p>
+        <p style="color: rgb(48, 15, 58);" data-aos="fade-down" data-aos-duration="3000">This is another small paragraph.</p>
+        <br>
+        <br>
+    </header><br>
+    <section class="poly2" data-aos="fade-right" data-aos-duration="2000">
+        <div style="display: flex;flex-direction: column-reverse;">
+            <section>
+                <button id="button" data-aos="fade-up" data-aos-duration="2500">Click to fade in boxes</button>&nbsp;&nbsp;<button id="stop" data-aos="fade-down" data-aos-duration="3000">Click me to stop</button><br><br>
+
+                <div data-aos="fade-right" data-aos-duration="2500" id="div1" style="background-color: aliceblue; height: 5em; width: 10em; padding: 1em;">Trying to toggle away</div>
+                <div data-aos="fade-right" data-aos-duration="2600" id="div2" style="background-color: aqua;height: 5em; width: 10em;padding: 1em;">Trying to toggle away</div>
+                <div data-aos="fade-right" data-aos-duration="2700" id="div3" style="background-color:blanchedalmond;height: 5em; width: 10em;padding: 1em;">Trying to toggle away</div>
+
+            </section><br>
+            <section>
+                <br>
+                <div data-aos="zoom-in" data-aos-duration="2500" class="card" id="card1" style="position: relative;width: 40rem;left: 23em;">
+                    Ea cupidatat ex incididunt dolor ut dolore. Cillum aliqua tempor deserunt do magna. Cillum dolore velit pariatur est duis Lorem reprehenderit officia. Esse dolor veniam do labore reprehenderit ad dolor sit nulla ipsum consectetur irure anim aliquip. Adipisicing
+                    est consequat deserunt tempor excepteur in velit ad deserunt Lorem fugiat laboris. Laboris ipsum incididunt aute eu elit sunt officia veniam fugiat sit et magna magna incididunt. Aute occaecat in et sint Lorem.
+                </div>
+
+            </section>
+    </section>
+    </div><br>
+    <div data-aos="fade-left" data-aos-duration="2500">
+        <section class="poly3">
+            <div class="card" id="card2" style="left: 23em;position: relative;" data-aos="fade-down-right" data-aos-duration="3000">
+                <h2>Hey , If you come over me then I'll come over you.</h2>
+            </div><br><br>
+            <br>
+            <br>
+            <div style="color: rgb(139, 216, 235);">
+                <h3>
+                    <div id="count" style="display: inline-block;"></div>
+                </h3>
+            </div>
+            <button id="game" style="background-color: rgb(127, 208, 255); float: right;text-align: center;">Click me to bring that back.</button>
+            <div data-aos="zoom-out-left" data-aos-duration="2500" class="card" id="card3" style="left: 23em;position: relative;display: block;width: fit-content;text-align: center;">
+                <h1>Touch me NOT game....</h1><br>
+                <h2>If you come near me I'll run away.</h2>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div data-aos="zoom-in" data-aos-duration="2500" class="card poly2" id="card4" style="position: relative;width: 42rem;left: 23em;">lNulla fugiat sit sunt ullamco. Nisi aliqua pariatur eu enim commodo non sit. Exercitation excepteur id ad aliquip pariatur laboris. Enim excepteur mollit eiusmod esse excepteur ea Lorem cupidatat nostrud ullamco officia ea tempor occaecat.
+                Aliqua excepteur exercitation id proident &nbsp; occaecat in commodo laborum id nisi. Aute ad laboris aliquip amet officia enim. Nostrud pariatur cillum incididunt esse enim eu nisi.</div>
+
+            <br>
+            <br>
+        </section>
+    </div>
+    <br>
+    <br>
+    <div class="enjoy-css"></div>
+    <br>
+    <div class="card">
+        <h2 data-aos="zoom-out">Enter any info <input type="text" data-aos="flip-left" id="info" placeholder="Enter your info in here"></h2><br>
+        <button id="infosubmit" data-aos="fade-right">Submit to the host</button>
+        <button id="emptyinput" style="float: right;" data-aos="fade-left">Empty the given inputs</button>
+        <h3 style="color: rgb(51, 11, 88);text-align: center;" id="writeinhere"></h3>
+    </div>
+    <br>
+    <br><br>
+    <button id="ajax">Click me to enable AJAX</button>
+    <h2 id="addajax" style="color: antiquewhite;">Changing through ajax after clicking the button</h2>
+    <br>
+    <br>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
